@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         tv_time1.setText(new DateTime(new Date()).minusDays(1).toDate().toString());
 
         tv_timeago.setText(new TimeAgo().getTimeAgo(new Date()));
-        tv_timeago1.setText(new TimeAgo().getTimeAgo(new DateTime(new Date()).minusDays(2).toDate()));
+        tv_timeago1.setText(new TimeAgo().getTimeAgo(new DateTime(new Date()).minus(2).toDate()));
 
     }
 }

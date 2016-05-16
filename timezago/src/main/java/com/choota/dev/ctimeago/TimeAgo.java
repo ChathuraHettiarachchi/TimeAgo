@@ -57,7 +57,7 @@ public class TimeAgo {
         } else if (different < 50 * MINUTE_MILLIS) {
             return different / MINUTE_MILLIS + " mins ago";
         } else if (different < 90 * MINUTE_MILLIS) {
-            return "an hour ago";
+            return "a hour ago";
         } else if (different < 24 * HOUR_MILLIS) {
             timeFromData = timeFormat.format(startDate);
             return timeFromData;
