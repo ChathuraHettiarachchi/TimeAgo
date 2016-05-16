@@ -59,6 +59,8 @@ Screenshot
 Changelog
 ---------
 * **1.1.5**
+    * Fixed grammer issues
+* **1.1.5**
     * Stable the release
 * **1.1.0**
     * Fixed crashing for ISO date format
