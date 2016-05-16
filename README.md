@@ -13,7 +13,7 @@ Gradle
 ```
 dependencies {
     ...
-    compile 'com.chootdev:timezago:1.1.5'
+    compile 'com.chootdev:timezago:1.1.6'
 }
 ```
 
@@ -24,7 +24,7 @@ Maven
 <dependency>
   <groupId>com.chootdev</groupId>
   <artifactId>timezago</artifactId>
-  <version>1.1.5</version>
+  <version>1.1.6</version>
   <type>pom</type>
 </dependency>
 ```
@@ -58,7 +58,7 @@ Screenshot
   
 Changelog
 ---------
-* **1.1.5**
+* **1.1.6**
     * Fixed grammer issues
 * **1.1.5**
     * Stable the release
