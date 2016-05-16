@@ -1,6 +1,6 @@
 # TimeAgo [ ![Download](https://api.bintray.com/packages/chathurahettiarachchi/maven/TimeZAgo/images/download.svg) ](https://bintray.com/chathurahettiarachchi/maven/TimeZAgo/_latestVersion)
 
-I know what is mostly experianced problem when doing my development. OS decide to write this library to get how much time passed. Many of us having problem how to show how much time have passed... how to show it like messages app.., Yeah, you looking at the write place. This will fix your issue.
+I know what is mostly experianced problem when doing my development. So I decide to write this library to get how much time passed. Many of us having problem how to show how much time have passed, how to show it like in messages, notifications... Yeah, you looking at the right place. This will fix your issue.
 
   ![logo](https://cloud.githubusercontent.com/assets/13764097/15270717/a196efe4-1a46-11e6-9fbe-5559614af3dd.png)
   
@@ -13,7 +13,7 @@ Gradle
 ```
 dependencies {
     ...
-    compile 'com.chootdev:timezago:1.1.5'
+    compile 'com.chootdev:timezago:1.1.6'
 }
 ```
 
@@ -24,7 +24,7 @@ Maven
 <dependency>
   <groupId>com.chootdev</groupId>
   <artifactId>timezago</artifactId>
-  <version>1.1.5</version>
+  <version>1.1.6</version>
   <type>pom</type>
 </dependency>
 ```
@@ -58,6 +58,8 @@ Screenshot
   
 Changelog
 ---------
+* **1.1.6**
+    * Fixed grammer issues
 * **1.1.5**
     * Stable the release
 * **1.1.0**
