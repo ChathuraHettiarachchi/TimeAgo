@@ -11,6 +11,10 @@ For the android project just include the following dependency inside you buil.gr
 Gradle
 ------
 ```
+repositories {  
+   jcenter()  
+}
+
 dependencies {
     ...
     compile 'com.chootdev:timezago:1.1.6'
