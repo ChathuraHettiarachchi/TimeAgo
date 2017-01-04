@@ -1,4 +1,4 @@
-# TimeAgo [ ![Download](https://api.bintray.com/packages/chathurahettiarachchi/maven/TimeZAgo/images/download.svg) ](https://bintray.com/chathurahettiarachchi/maven/TimeZAgo/_latestVersion)
+# TimeAgo [ ![Download](https://api.bintray.com/packages/chathurahettiarachchi/maven/TimeZAgo/images/download.svg?version=1.1.7) ](https://bintray.com/chathurahettiarachchi/maven/TimeZAgo/1.1.7/link)
 
 I know what is mostly experianced problem when doing my development. So I decide to write this library to get how much time passed. Many of us having problem how to show how much time have passed, how to show it like in messages, notifications... Yeah, you looking at the right place. This will fix your issue.
 
@@ -11,13 +11,12 @@ For the android project just include the following dependency inside you buil.gr
 Gradle
 ------
 ```
-repositories {  
-   jcenter()  
+repositories {   
 }
 
 dependencies {
     ...
-    compile 'com.chootdev:timezago:1.1.6'
+    compile 'com.chootdev:timezago:1.1.7'
 }
 ```
 
@@ -28,7 +27,7 @@ Maven
 <dependency>
   <groupId>com.chootdev</groupId>
   <artifactId>timezago</artifactId>
-  <version>1.1.6</version>
+  <version>1.1.7</version>
   <type>pom</type>
 </dependency>
 ```
