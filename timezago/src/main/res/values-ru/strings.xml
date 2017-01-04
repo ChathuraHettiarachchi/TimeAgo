@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CTimeAgo</string>
+    <string name="a_hour_ago">час назад</string>
+    <string name="a_min_ago">минуту назад</string>
+    <string name="days_ago">" дня назад"</string>
+    <string name="just_now">только что</string>
+    <string name="mins_ago">" минут назад"</string>
+    <string name="week_ago">неделю назад</string>
+    <string name="weeks_ago">" недель назад"</string>
+    <string name="yesterday">вчера</string>
+</resources>

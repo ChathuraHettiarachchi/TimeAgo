@@ -42,6 +42,11 @@ TimeAgo timeAgo = new TimeAgo();
 String result = timeAgo.getTimeAgo(YOUR_PAST_DATE);
 ```
 
+```java
+TimeAgo timeAgo = new TimeAgo().locale(CONTEXT).with(CUSTOM_DATE_FORMAT);
+String result = timeAgo.getTimeAgo(YOUR_CUSTOM_PAST_DATE);
+```
+
 Limitations
 -----------
 * Currently not supporting for custom date formats. supports for ISO foramt and dd/MM/yyyy HH:mm:ss only.
@@ -62,6 +67,8 @@ Screenshot
   
 Changelog
 ---------
+* **1.1.7**
+    * Added ru localization, changed min API from 16 to 9, custom date format
 * **1.1.6**
     * Fixed grammer issues
 * **1.1.5**
