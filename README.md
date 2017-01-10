@@ -11,7 +11,8 @@ For the android project just include the following dependency inside you buil.gr
 Gradle
 ------
 ```
-repositories {   
+repositories {
+  jcenter()
 }
 
 dependencies {
