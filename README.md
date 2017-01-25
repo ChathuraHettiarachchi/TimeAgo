@@ -77,7 +77,11 @@ Changelog
     * Fixed crashing for ISO date format
 * **1.0.0**
     * Initial release
-  
+
+## Author
+
+Chathura Hettiarachchi, chathura93@yahoo.com
+
 # License
 Copyright 2016 Chathura Hettiarachchi
 
