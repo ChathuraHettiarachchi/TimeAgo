@@ -70,24 +70,24 @@ public class TimeAgo {
 
         if (context==null) {
             if (different < MINUTE_MILLIS) {
-                return "just now";
+                return context.getResources().getString(R.string.just_now);
             } else if (different < 2 * MINUTE_MILLIS) {
-                return "a min ago";
+                return context.getResources().getString(R.string.a_min_ago);
             } else if (different < 50 * MINUTE_MILLIS) {
-                return different / MINUTE_MILLIS + " mins ago";
+                return different / MINUTE_MILLIS + context.getString(R.string.mins_ago);
             } else if (different < 90 * MINUTE_MILLIS) {
-                return "a hour ago";
+                return context.getString(R.string.a_hour_ago);
             } else if (different < 24 * HOUR_MILLIS) {
                 timeFromData = timeFormat.format(startDate);
                 return timeFromData;
             } else if (different < 48 * HOUR_MILLIS) {
-                return "yesterday";
+                return context.getString(R.string.yesterday);
             } else if (different < 7 * DAY_MILLIS) {
-                return different / DAY_MILLIS + " days ago";
+                return different / DAY_MILLIS + context.getString(R.string.days_ago);
             } else if (different < 2 * WEEKS_MILLIS) {
-                return different / WEEKS_MILLIS + "week ago";
+                return different / WEEKS_MILLIS + context.getString(R.string.week_ago);
             } else if (different < 3.5 * WEEKS_MILLIS) {
-                return different / WEEKS_MILLIS + " weeks ago";
+                return different / WEEKS_MILLIS + context.getString(R.string.weeks_ago);
             } else {
                 pastDate = dateFormat.format(startDate);
                 return pastDate;

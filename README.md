@@ -1,4 +1,4 @@
-# TimeAgo [ ![Download](https://api.bintray.com/packages/chathurahettiarachchi/maven/TimeZAgo/images/download.svg) ](https://bintray.com/chathurahettiarachchi/maven/TimeZAgo/_latestVersion)
+# TimeAgo [ ![Download](https://api.bintray.com/packages/chathurahettiarachchi/maven/TimeZAgo/images/download.svg?version=1.1.7) ](https://bintray.com/chathurahettiarachchi/maven/TimeZAgo/1.1.7/link)
 
 I know what is mostly experianced problem when doing my development. So I decide to write this library to get how much time passed. Many of us having problem how to show how much time have passed, how to show it like in messages, notifications... Yeah, you looking at the right place. This will fix your issue.
 
@@ -17,7 +17,7 @@ repositories {
 
 dependencies {
     ...
-    compile 'com.chootdev:timezago:1.1.8'
+    compile 'com.chootdev:timezago:1.1.7'
 }
 ```
 
@@ -28,7 +28,7 @@ Maven
 <dependency>
   <groupId>com.chootdev</groupId>
   <artifactId>timezago</artifactId>
-  <version>1.1.8</version>
+  <version>1.1.7</version>
   <type>pom</type>
 </dependency>
 ```
@@ -54,8 +54,8 @@ Limitations
 
 Output patterns
 ---------------
-* Below 1min  - Right now
-* 1min - 1h   - returns like 20 minutes ago
+* Below 1min  - just now
+* 1min - 1h   - returns like 20min
 * 1h - 24h    - time eg: 12.34pm
 * 1d - 1w     - 1 week ago
 * 1w - 4w     - 1 week ago, 2 weeks ago 3 weeks ago
@@ -67,8 +67,6 @@ Screenshot
   
 Changelog
 ---------
-* **1.1.8**
-    * International Strings and Formatted
 * **1.1.7**
     * Added ru localization, changed min API from 16 to 9, custom date format
 * **1.1.6**

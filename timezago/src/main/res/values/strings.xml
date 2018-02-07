@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">CTimeAgo</string>
-    <string name="just_now">just now</string>
-    <string name="a_min_ago">a min ago</string>
-    <string name="mins_ago">" mins ago"</string>
-    <string name="a_hour_ago">a hour ago</string>
-    <string name="yesterday">yesterday</string>
+    <string name="just_now">Right now</string>
+    <string name="a_min_ago">1 minute ago</string>
+    <string name="mins_ago">" minutes ago"</string>
+    <string name="a_hour_ago">1 hour ago</string>
+    <string name="yesterday">Yesterday</string>
     <string name="days_ago">" days ago"</string>
     <string name="week_ago">" week ago"</string>
     <string name="weeks_ago">" weeks ago"</string>
