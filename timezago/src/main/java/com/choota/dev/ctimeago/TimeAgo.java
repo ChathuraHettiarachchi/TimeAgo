@@ -1,8 +1,8 @@
 package com.choota.dev.ctimeago;
 
 import android.content.Context;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -14,14 +14,12 @@ import java.util.Date;
  */
 public class TimeAgo {
 
-    SimpleDateFormat simpleDateFormat, dateFormat;
-    DateFormat timeFormat;
-    Date dateTimeNow;
-    String timeFromData;
-    String pastDate;
-    String sDateTimeNow;
+    private SimpleDateFormat simpleDateFormat, dateFormat;
+    private DateFormat timeFormat;
+    private Date dateTimeNow;
 
     @Nullable
+    private
     Context context;
 
     private static final int SECOND_MILLIS = 1000;
@@ -30,7 +28,7 @@ public class TimeAgo {
     private static final int DAY_MILLIS = 24 * HOUR_MILLIS;
     private static final int WEEKS_MILLIS = 7 * DAY_MILLIS;
     private static final int MONTHS_MILLIS = 4 * WEEKS_MILLIS;
-    //private static final int YEARS_MILLIS = 12 * MONTHS_MILLIS;
+    private static final int YEARS_MILLIS = 12 * MONTHS_MILLIS;
 
     public TimeAgo() {
 
@@ -39,7 +37,7 @@ public class TimeAgo {
         timeFormat = new SimpleDateFormat("h:mm aa");
 
         Date now = new Date();
-        sDateTimeNow = simpleDateFormat.format(now);
+        String sDateTimeNow = simpleDateFormat.format(now);
 
         try {
             dateTimeNow = simpleDateFormat.parse(sDateTimeNow);
@@ -68,6 +66,8 @@ public class TimeAgo {
         //  time difference in milli seconds
         long different = endDate.getTime() - startDate.getTime();
 
+        String timeFromData;
+        String pastDate;
         if (context==null) {
             if (different < MINUTE_MILLIS) {
                 return context.getResources().getString(R.string.just_now);
