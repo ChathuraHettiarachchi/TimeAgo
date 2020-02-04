@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Git-TimeZAgo.iml" filepath="$PROJECT_DIR$/Git-TimeZAgo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TimeAgo.iml" filepath="$PROJECT_DIR$/TimeAgo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/timezago/timezago.iml" filepath="$PROJECT_DIR$/timezago/timezago.iml" />
     </modules>
